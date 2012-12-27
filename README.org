@@ -1,0 +1,20 @@
+* Description
+  This is a javascript library that defines and implements an API for
+  drawing vectors of data in the context of statistical graphics. It
+  is inspired by the qtpaint package. Currently, there is only one
+  implementation based on the <canvas> 2D context. It has not been
+  tested yet. Once it is working, a WebGL implementation will follow.
+
+* Building
+  Although the functionality is not yet tested, it is possible to
+  build the library into an optimized file for loading in a
+  browser. These are the steps:
+  1. Install node.js on the system.
+  2. Install the grunt build tool CLI: =npm install -g grunt-cli=
+  3. Install the dependencies of the build system, from within the
+     root directory of the repository: =npm install=
+  4. Build the optimized distribution script: =grunt=
+
+  Currently, that last step depends on having a patched version of
+  the =grunt-bower-hooks= package. Hopefully, that issue will be
+  resolved soon.

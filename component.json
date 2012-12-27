@@ -1,0 +1,20 @@
+{
+  "name":         "splotch",
+  "description":  "Abstraction for drawing statistical graphics in the browser",
+  "keywords":     ["graphics", "visualization", "statistics", "canvas"],
+  "author":       { "name": "Michael Lawrence" },
+  "version":      "0.0.1",
+  "licenses":     [{
+    "type":       "MIT"
+  }],
+  "repository":   {
+    "type": "git",
+    "url": "git://github.com/ggobi/splotch.git"
+  },
+  "dependencies": {
+    "coffee-script": "https://raw.github.com/jashkenas/coffee-script/master/extras/coffee-script.js",
+    "requirejs": "https://raw.github.com/jrburke/requirejs/latest/require.js",  
+    "cs": "https://raw.github.com/jrburke/require-cs/latest/cs.js",
+    "almond": "https://raw.github.com/jrburke/almond/latest/almond.js"
+  }
+}
